@@ -7,7 +7,7 @@ This challenge is to build one app a day for 30 days! You are free to use the ap
 
 ## Challenges
 
- - 01/30 [Balls](./src/Animated/balls/README.md)
+ - 01/30 [Balls](./src/Animated/balls/)
 
 ## How to run challenge?
 
