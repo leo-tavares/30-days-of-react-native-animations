@@ -1,12 +1,13 @@
 import React from 'react';
-import {StatusBar, StyleSheet, Text, View} from 'react-native';
+import {StatusBar, StyleSheet, View} from 'react-native';
+import Balls from './Animated/balls';
 
 const App: React.FC = () => {
   return (
     <>
       <StatusBar hidden />
       <View style={styles.container}>
-        <Text>30 days animations challenge </Text>
+        <Balls />
       </View>
     </>
   );
