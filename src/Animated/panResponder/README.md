@@ -1,6 +1,6 @@
 # panResponder
 
-###### [back to main](../../../)
+###### [back to main](../../../README.md)
 
 This project use panRespnder api to animate the box and interpolate opacity and backgroundColor
 
