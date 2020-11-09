@@ -2,6 +2,7 @@ import React from 'react';
 import {StatusBar, StyleSheet, View} from 'react-native';
 import Balls from './Animated/balls';
 import Touchs from './Animated/panResponder';
+import ProgressBar from './Animated/progressBar';
 
 const App: React.FC = () => {
   return (
@@ -9,7 +10,8 @@ const App: React.FC = () => {
       <StatusBar hidden />
       <View style={styles.container}>
         {/* <Balls /> */}
-        <Touchs />
+        {/* <Touchs /> */}
+        <ProgressBar />
       </View>
     </>
   );
