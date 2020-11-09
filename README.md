@@ -1,7 +1,7 @@
 # 30-days-of-react-native-animations
 Encourage people to improve their skills with react-native
 
-## Challenge of what?
+## Goal
 
 This challenge is to build one app a day for 30 days! You are free to use the api you want, but remember, is very interessent you start from basic animation. Advanced animations will builded along the challenge :smiley:
 
