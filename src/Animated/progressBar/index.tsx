@@ -12,7 +12,13 @@ const ProgressBar: React.FC = () => {
       }
       return oldProgress + 0.1;
     });
-  const Dec = () => setProgres(progress - 0.1);
+  const Dec = () =>
+    setProgres((oldProgress) => {
+      if (oldProgress <= 0) {
+        return 0;
+      }
+      return progress - 0.1;
+    });
 
   return (
     <View style={styles.container}>
