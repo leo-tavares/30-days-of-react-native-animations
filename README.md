@@ -10,6 +10,7 @@ This challenge is to build one app a day for 30 days! You are free to use the ap
  - 01/30 [Balls](./src/Animated/balls/)
  - 02/30 [panResponder](./src/Animated/panResponder)
  - 03/30 [ProgressBar](./src/Animated/progressBar)
+ - 04/30 [signIn](./src/Animated/signIn)
 
 ## How to run challenge?
 
