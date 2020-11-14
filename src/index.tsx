@@ -1,8 +1,6 @@
 import React from 'react';
 import {StatusBar, StyleSheet, View} from 'react-native';
-// import Balls from './Animated/balls';
-// import Touchs from './Animated/panResponder';
-// import ProgressBar from './Animated/progressBar';
+import Rotate from './Animated/rotate';
 import SignIn from './Animated/signIn';
 
 function App() {
@@ -10,10 +8,8 @@ function App() {
     <>
       <StatusBar hidden />
       <View style={styles.container}>
-        {/* <Balls /> */}
-        {/* <Touchs /> */}
-        {/* <ProgressBar /> */}
-        <SignIn />
+        {/* <SignIn /> */}
+        <Rotate />
       </View>
     </>
   );
